@@ -48,17 +48,29 @@
     </div>
   </div>
   <div class="container">
-  <br \>
+  <br />
   <a><a href="/90eudk/">back</a></p>
   <h1>90EUDK - Documentation</h1>
   <h2>90EUDK 0.0.1-beta<h2>
   <h3>Script functions</h3>
-  <h4>int mode1_getkeystate(lKeyCode)</h4>
-  <p>lKeyCode: 0-up, 1-down, 2-left, 3-right, 32-space
-  </p>
-  <p>return value: the return value specifies whether the key is pressed (0-no, 1-yes)
-  </p>
-  <h4>TODO...</h4>
+  <p>-</p>
+  <h4>int mode1_getkeystate( lKeyCode )</h4>
+  <p>lKeyCode: 0-up, 1-down, 2-left, 3-right, 32-space</p>
+  <p>return value: the return value specifies whether the key is pressed (0-no, 1-yes)</p>
+  <p>-</p>
+  <h4>float mode1_getsoundvolume( channel )</h4>
+  <p>channel: number of requested channel (from 1 to 255)</p>
+  <p>retun value: value from 0.0 to 1.0 (1.0 is max volume)
+  <p>-</p>
+  <h4>mode1_releasesound( channel )</h4>
+  <p>channel: number of requested channel (from 1 to 255)</p>
+  <p>retun value: none</p>
+  <p>-</p>
+  <h4>mode1_setsoundvolume( channel, volume )</h4>
+  <p>channel: number of requested channel (from 1 to 255)<br />
+  volume: new sound volume value from 0.0 to 1.0 (0.5 is 50%)</p>
+  <p>retun value: none</p>
+  <p>-</p>
   </div>
 </body>
 </html>
