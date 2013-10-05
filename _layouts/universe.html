@@ -20,11 +20,13 @@
         <header>
             <img src="http://www.90edges.com/universe/img/logo.png" width="416" height="189" alt="90Edges logo" class="left logo"/>
             <div class="right">
+                {% if page.preorderbutton == true %}
                 <p class="left preorderLink">
                     <a class="greenLink" href="http://www.90edges.com/universe/preorder/">Pre-Order Now</a>
                     &nbsp;&nbsp;
                     <small>or</small>
-                </p>	
+                </p>
+                {% endif %}
                 <p class="left">
                     <a href="http://www.90edges.com/universe/download/win.html" class="greenButton">Download Demo</a>
 <!--
