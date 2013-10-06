@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>90Edges Universe</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="http://www.90edges.com/universe/css/style.css"/>
     <div id="fb-root"></div>
 <!-- TODO    <script>(function(d, s, id) {
@@ -22,13 +22,13 @@
             <div class="right">
                 {% if page.preorderbutton == true %}
                 <p class="left preorderLink">
-                    <a class="greenLink" href="http://www.90edges.com/universe/preorder/">Pre-Order Now</a>
+                    <a class="greenLink" href="http://www.90edges.com/universe/preorder/">Join exclusive beta!</a>
                     &nbsp;&nbsp;
                     <small>or</small>
                 </p>
                 {% endif %}
                 <p class="left">
-                    <a href="http://www.90edges.com/universe/download/win.html" class="greenButton">Download Demo</a>
+                    <a href="http://www.90edges.com/universe/download/win.html" class="greenButton">Download demo</a>
 <!--
                     <br/><span class="gray"><small>Download version for <span class="iconsPlatform linux">Apple</span> <a href="__TODO__" id="changeDownloadPlatform">Změnit</a></small></span>
 -->
@@ -42,7 +42,11 @@
     	<div class="main">
             <ul class="left">
                 <li>
+                    {% if page.menuitem == 1 %}
                     <a class="on" href="http://www.90edges.com/universe/"><span class="lBorder"><span class="rBorder">The game</span></span></a>
+                    {% else %}
+                    <a href="http://www.90edges.com/universe/">The game</a>
+                    {% endif %}
                 </li>
                 <li>
                     <a href="http://www.90edges.com/universe/media/">Media</a>
