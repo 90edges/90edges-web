@@ -49,9 +49,16 @@
                     {% endif %}
                 </li>
                 <li>
+                    {% if page.menuitem == "media" %}
+                    <a class="on" href="http://www.90edges.com/universe/media/"><span class="lBorder"><span class="rBorder">Media</span></span></a>
+                    {% else %}
                     <a href="http://www.90edges.com/universe/media/">Media</a>
                 </li>
                 <li>
+                    {% if page.menuitem == "the_team" %}
+                    <a class="on" href="http://www.90edges.com/universe/team/"><span class="lBorder"><span class="rBor\
+der">The team</span></span></a>
+                    {% else %}
                     <a href="http://www.90edges.com/universe/team/">The team</a>
                 </li>
                 <li>
