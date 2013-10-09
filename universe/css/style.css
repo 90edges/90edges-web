@@ -78,7 +78,7 @@ nav .main ul {
 	margin-bottom:-7px;
 }
 nav .on {
-	background-image:url(../img/menu_on_bg.gif);
+	background-image:url(../img/menu_on_bg.png);
 	background-repeat:repeat-x;
 	white-space:nowrap;
 	height:51px;
@@ -103,13 +103,13 @@ nav a:hover {
 	background-position:left;
 	display:inline-block;
 	margin-left:-20px;
-	padding-left:40px;
+        padding-left:40px;
 }
 .rBorder {
 	background-image:url(../img/menu_on_right.png);
 	background-repeat:no-repeat;
 	background-position:right;
-	padding:18px 40px 19px 0px;
+	padding:17px 40px 17px 0px;
 	margin-right:-20px;
 }
 nav {
