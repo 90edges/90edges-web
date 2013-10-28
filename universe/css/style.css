@@ -123,7 +123,11 @@ nav ul {
 	width:auto !important;
 }
 nav .right {
-	margin-top:13px;
+	margin-top:0px;
+}
+nav .right_twitter {
+        margin-top:13px;
+        margin-left:10px;
 }
 .oneThirdCol {
 	width:300px;
@@ -136,6 +140,9 @@ nav .right {
 }
 .right {
 	float:right;
+}
+.right_twitter {
+        float:right;
 }
 .clear {
 	clear:both;
