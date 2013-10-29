@@ -150,7 +150,6 @@ nav .right_twitter {
 .logo {
 	position:relative;
 	z-index:1;
-	margin-bottom:-100px;
 }
 .iconsPlatform {
 	background-image:url(../img/platforms.png);
