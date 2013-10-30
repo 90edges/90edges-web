@@ -78,14 +78,16 @@
                     {% endif %}                    
                 </li>
                 <li>
-                    <a href="http://getsatisfaction.com/90edges/">Support</a>
+                    <a href="http://90euniverse.tumblr.com">Blog</a>
                 </li>
                 <li>
-                    <a href="http://90euniverse.tumblr.com">Blog</a>
+                    <a href="http://getsatisfaction.com/90edges/">Support</a>
                 </li>
             </ul>
             <div class="right">
-	            <div class="fb-like left" data-href="http://www.90edges.com/universe/" data-width="120" data-height="20" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+	        {% if page.menuitem == "the_game" %}
+	        <div class="fb-like left" data-href="http://www.90edges.com/universe/" data-width="120" data-height="20" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+                {% endif %}
                 <small><a href="https://twitter.com/share" class="right_twitter twitter-share-button">Tweet</a></small>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
